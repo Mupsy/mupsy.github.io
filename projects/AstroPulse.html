@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Benjamin Boufflers</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navbar améliorée -->
+    <nav class="fixed w-full bg-white/80 backdrop-blur-sm border-b border-gray-200 z-50">
+        <div class="max-w-7xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="../static/cv.pdf" class="flex items-center space-x-3">
+                <button class="px-6 py-2.5 text-white bg-blue-600 hover:bg-blue-700 transform hover:scale-105 transition-all duration-200 rounded-lg text-sm font-medium focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                    Accédez à mon CV
+                </button>
+            </a>
+            <div class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0">
+                    <li>
+                        <a href="/" class="block py-2 px-3 text-gray-900 hover:text-blue-600 transition-colors duration-200">Accueil</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0">
+                    <li>
+                        <a href="/" class="block py-2 px-3 text-gray-900 hover:text-blue-600 transition-colors duration-200">Accueil</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="pt-24 pb-12 bg-gradient-to-br from-blue-50 to-indigo-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <span class="inline-block px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm font-medium">Projet Personnel</span>
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-900">AstroPulse</h1>
+                    <p class="text-xl text-gray-600">SpaceTracker est une plateforme web interactive qui centralise le suivi des missions spatiales et des événements astronomiques en temps réel. Grâce à l’intégration de multiples API et d’outils interactifs comme un calendrier, des flux vidéo et un tableau de bord analytique, elle offre une expérience immersive et personnalisable, bien au-delà des simples sites d’information. 🚀</p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#" class="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                            Voir la démo
+                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="inline-flex items-center px-6 py-3 border border-gray-300 rounded-lg hover:border-gray-400 transition-colors">
+                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            Code source
+                        </a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-600 transform rotate-6 rounded-2xl opacity-10"></div>
+                    <img src="https://via.placeholder.com/600x400" alt="Aperçu du projet" class="relative rounded-2xl shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Contexte et Objectifs</h2>
+                <p class="text-lg text-gray-600">Présentation détaillée du contexte du projet, des problématiques adressées et des objectifs visés.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Problématique</h3>
+                    <p class="text-gray-600">Comment centraliser et rendre accessible en temps réel les informations sur l’exploration spatiale et les événements astronomiques tout en permettant aux passionnés d’interagir et de personnaliser leur suivi ?</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Solution</h3>
+                    <p class="text-gray-600">Une application web dynamique qui agrège plusieurs API pour fournir des données actualisées. Grâce à un système d’authentification et de personnalisation, chaque utilisateur peut suivre les missions qui l’intéressent, recevoir des alertes et interagir avec la communauté.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="tech" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-gray-900 mb-12">Technologies Utilisées</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col items-center">
+                    <img src="https://via.placeholder.com/60" alt="Tech 1" class="mb-4">
+                    <h3 class="text-lg font-semibold text-gray-900">Laravel</h3>
+                    <p class="text-gray-600 text-center mt-2">PHP Frameword</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col items-center">
+                    <img src="https://via.placeholder.com/60" alt="Tech 2" class="mb-4">
+                    <h3 class="text-lg font-semibold text-gray-900">Blade</h3>
+                    <p class="text-gray-600 text-center mt-2">Templateur HTML fourni avec Laravel</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col items-center">
+                    <img src="https://via.placeholder.com/60" alt="Tech 3" class="mb-4">
+                    <h3 class="text-lg font-semibold text-gray-900">MySQL</h3>
+                    <p class="text-gray-600 text-center mt-2">Database</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col items-center">
+                    <img src="https://via.placeholder.com/60" alt="Tech 4" class="mb-4">
+                    <h3 class="text-lg font-semibold text-gray-900">TailwindCSS</h3>
+                    <p class="text-gray-600 text-center mt-2">Framework CSS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-gray-900 mb-12">Fonctionnalités Clés</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="relative">
+                    <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-600 transform -rotate-6 rounded-2xl opacity-10"></div>
+                    <img src="https://via.placeholder.com/600x400" alt="Feature 1" class="relative rounded-2xl shadow-lg">
+                </div>
+                <div class="space-y-6">
+                    <h3 class="text-2xl font-bold text-gray-900">Fonctionnalité 1</h3>
+                    <p class="text-gray-600">Description détaillée de la fonctionnalité et de son utilité pour les utilisateurs. Expliquez comment elle résout un problème spécifique.</p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-gray-600">Point clé 1 de la fonctionnalité</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-gray-600">Point clé 2 de la fonctionnalité</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-gray-900 mb-12">Galerie</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+                    <img src="https://via.placeholder.com/400x300" alt="Screenshot 1" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="text-white text-xl font-semibold">Capture d'écran 1</h3>
+                            <p class="text-white/80">Description de la fonctionnalité montrée</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+                    <img src="https://via.placeholder.com/400x300" alt="Screenshot 2" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="text-white text-xl font-semibold">Capture d'écran 2</h3>
+                            <p class="text-white/80">Description de la fonctionnalité montrée</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+                    <img src="https://via.placeholder.com/400x300" alt="Screenshot 3" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="text-white text-xl font-semibold">Capture d'écran 3</h3>
+                            <p class="text-white/80">Description de la fonctionnalité montrée</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6">Prêt à découvrir le projet ?</h2>
+            <p class="text-xl text-gray-600 mb-8">Explorez la démo ou consultez le code source pour en savoir plus.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#" class="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                    Voir la démo
+                    <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                    </svg>
+                </a>
+                <a href="#" class="inline-flex items-center px-6 py-3 border border-gray-300 rounded-lg hover:border-gray-400 transition-colors">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    Code source
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
